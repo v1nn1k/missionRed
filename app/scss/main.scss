@@ -1,0 +1,58 @@
+@import "fonts";
+// - - - - - - - - - - - - - - Variables - - - - - - - - - - - - - -
+$mainColor: #4ec0ff;
+$greyBackground: #e4e3ea; //#f2f1f8;
+$greyCopy:#b9b7c6;
+$darkGrey:#3f3d4e;
+$white:#fff;
+$white_gray: #e9e9e9;
+$red: #8a0202;
+// - - - - - - - - - - - - - - Global Styles - - - - - - - - - - - - - -
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow-x: hidden
+}
+
+html {
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    background-color: $greyBackground;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    flex-grow: 0;
+    background-color: #918da5;
+    color: $red;
+    text-align: center;
+}
+
+.content {
+    flex-grow: 1;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#mycanvas {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+}
+
+// - - - - - - - - - - - - - -Services styles - - - - - - - - - - - - - -
+.footer {
+    flex-grow: 0;
+    background-color: $greyCopy;
+    padding: 1.5rem;
+    text-align: center;
+    color: $white;
+}
