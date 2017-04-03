@@ -28,6 +28,8 @@ circles.push({
 //______________________________________________________________________
 
 
+
+
 function drawC(x, y, r) {
     ctx.beginPath();
     ctx.fillStyle = "#c82124";
