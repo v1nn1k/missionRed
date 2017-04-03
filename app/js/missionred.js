@@ -27,6 +27,10 @@ circles.push({
 
 //______________________________________________________________________
 
+window.onload = function hello() {
+    alert('hellooooo');
+}
+
 
 function drawC(x, y, r) {
     ctx.beginPath();
